@@ -1,0 +1,29 @@
+{
+  "name": "svg-sprites-cli",
+  "version": "0.0.3",
+  "description": "Batch convert SVG to sprites.",
+  "scripts": {},
+  "bin": {
+    "svgjs": "./bin/svgjs.js"
+  },
+  "files": [
+    "bin/",
+    "build/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godxiaoji/svg-sprites-cli.git"
+  },
+  "author": "Travis Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godxiaoji/svg-sprites-cli/issues"
+  },
+  "homepage": "https://github.com/godxiaoji/svg-sprites-cli#readme",
+  "dependencies": {
+    "@godxiaoji/rollup-plugin-require-context": "^1.0.1",
+    "commander": "^8.3.0",
+    "rollup": "^2.61.1",
+    "rollup-plugin-svg-sprites": "^1.1.1"
+  }
+}
