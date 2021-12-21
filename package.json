@@ -1,6 +1,6 @@
 {
   "name": "svg-sprites-cli",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Batch convert SVG to sprites.",
   "scripts": {},
   "bin": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "@godxiaoji/rollup-plugin-require-context": "^1.0.1",
     "commander": "^8.3.0",
+    "deepmerge": "^4.2.2",
     "rollup": "^2.61.1",
     "rollup-plugin-svg-sprites": "^1.1.1"
   }
