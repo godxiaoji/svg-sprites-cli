@@ -5,14 +5,14 @@ specifiers:
   commander: ^8.3.0
   deepmerge: ^4.2.2
   rollup: ^2.61.1
-  rollup-plugin-svg-sprites: ^1.1.1
+  rollup-plugin-svg-sprites: ^1.1.7
 
 dependencies:
   '@godxiaoji/rollup-plugin-require-context': 1.0.1_rollup@2.61.1
   commander: 8.3.0
   deepmerge: registry.nlark.com/deepmerge/4.2.2
   rollup: 2.61.1
-  rollup-plugin-svg-sprites: 1.1.1
+  rollup-plugin-svg-sprites: 1.1.7
 
 packages:
 
@@ -443,6 +443,14 @@ packages:
     dependencies:
       map-cache: 0.2.2
     dev: false
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /generate-source-map/0.0.5:
     resolution: {integrity: sha1-8SVfMWU8sCMeZxOn3IN1r08zpQk=, tarball: generate-source-map/download/generate-source-map-0.0.5.tgz}
@@ -916,8 +924,8 @@ packages:
     engines: {node: '>=0.12'}
     dev: false
 
-  /rollup-plugin-svg-sprites/1.1.1:
-    resolution: {integrity: sha512-qi0GXlc8uTP187oza8GbYCt+z/sbgfZJ25W3Fadt1Tvxyg+2QSbmD0KDsUfaDGlg7FOHrEIpIINQk0odEQK6lQ==, tarball: rollup-plugin-svg-sprites/download/rollup-plugin-svg-sprites-1.1.1.tgz}
+  /rollup-plugin-svg-sprites/1.1.7:
+    resolution: {integrity: sha512-UFoFiP8PSuQo9I3d56dV6h6+JrRN8zBGiQ1cU0Q98cmh2D/HtPL9A1NnfPDSQVkdDDp4Adq1mP2zO/3IJYEoPQ==}
     dependencies:
       '@rollup/pluginutils': 4.1.2
       '@vue/compiler-sfc': 3.2.26
@@ -931,7 +939,7 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: registry.npmmirror.com/fsevents/2.3.2
+      fsevents: 2.3.2
     dev: false
 
   /safe-buffer/5.2.1:
@@ -1154,13 +1162,3 @@ packages:
     version: 4.2.2
     engines: {node: '>=0.10.0'}
     dev: false
-
-  registry.npmmirror.com/fsevents/2.3.2:
-    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fsevents/download/fsevents-2.3.2.tgz}
-    name: fsevents
-    version: 2.3.2
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: false
-    optional: true
