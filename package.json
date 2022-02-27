@@ -1,6 +1,6 @@
 {
   "name": "svg-sprites-cli",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Batch convert SVG to sprites.",
   "scripts": {},
   "keywords": [

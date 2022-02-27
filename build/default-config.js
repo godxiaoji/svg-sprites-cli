@@ -5,7 +5,7 @@ module.exports = {
   symbolId(id, path) {
     const paths = id.split('/')
     const name = paths.pop().replace('.svg', '')
-    return `${this.prefix}-${kebabCase2PascalCase([name].concat(paths).join('-'))}`
+    return (this.prefix == null ? '' : this.prefix + '-') + kebabCase2PascalCase([name].concat(paths).join('-'))
   },
   eslintDisable: false
 }
